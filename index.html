@@ -1,7 +1,7 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" charset="utf-8">
     <title>RGAA Challenge</title>
     <style>
       body { font-family: system-ui, sans-serif; line-height: 1.5; }
@@ -13,7 +13,7 @@
   <body>
     <header>
       <h1>Mon super site</h1>
-      <h3>Bienvenue !</h3>
+      <h2>Bienvenue !</h2>
       <nav>
         <a href="#contenu">Cliquez ici</a>
         <a href="#contact">Cliquez ici</a>
@@ -21,9 +21,9 @@
     </header>
 
     <main id="contenu">
-      <img src="team.jpg" width="300" height="200">
+      <img alt="pedrolito" src="MainBefore.jpg">
 
-      <p class="muted">Ce texte gris clair manque de contraste pour certains utilisateurs.</p>
+      <p>Ce texte gris clair manque de contraste pour certains utilisateurs.</p>
 
       <section>
         <h3>Inscription à la newsletter</h3>
@@ -34,8 +34,8 @@
       </section>
 
       <section>
-        <h3>Actions rapides</h3>
-        <button>
+        <h4>Actions rapides</h4>
+        <button aria-label="Close" style="margin-bottom: 10px">
           <svg width="18" height="18" aria-hidden="true" focusable="false">
             <circle cx="9" cy="9" r="8" fill="currentColor"></circle>
           </svg>
@@ -44,7 +44,7 @@
     </main>
 
     <footer>
-      <a href="#haut" tabindex="10">Haut de page</a>
+      <a href="#haut" tabindex="0">Haut de page</a>
     </footer>
   </body>
 </html>
